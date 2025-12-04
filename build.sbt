@@ -6,5 +6,6 @@ lazy val root = project
     version := "0.1.0",
     scalaVersion := "3.7.4",
     scalacOptions ++= Seq("-deprecation"),
-    libraryDependencies += "org.scalameta" %% "munit" % "1.2.1" % Test
+    libraryDependencies += "org.scalameta" %% "munit" % "1.2.1" % Test,
+    libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.9.4"
   )
