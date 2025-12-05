@@ -8,4 +8,5 @@ lazy val root = project
     scalacOptions ++= Seq("-deprecation"),
     libraryDependencies += "org.scalameta" %% "munit" % "1.2.1" % Test,
     libraryDependencies += "com.linecorp.armeria" % "armeria" % "1.14.0"
+    libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.9.4"
   )
